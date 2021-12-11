@@ -1,0 +1,105 @@
+body {
+    background: url("hospital+.jpg");
+    background-size: 100%;
+    font-family: "Roboto", "Arial", sans-serif;
+}
+
+
+
+
+
+.header img {
+    margin: auto;
+    display: block;
+    height: 200px;
+    width: 200px;
+    
+    
+}
+
+.header {
+    background-color: rgb(212, 241, 255);
+    position: relative;
+    border-radius: 25px;
+
+    
+    
+}
+
+.header p {
+    font-size: 80px;
+    text-align: center;
+    padding-bottom: 0px;
+	margin:10px;
+    
+}
+
+
+
+#right { 
+    margin-top: 10px;
+    position: absolute; 
+    left: 5px; 
+     width:20%; 
+     border: 5px solid black;
+     padding: 5px;
+     border-radius: 15px;
+     background-color: rgb(70, 70, 70);
+     color: white;
+     opacity: 80%;
+    
+}
+           
+#left { 
+    margin-top: 10px;
+    position: absolute; 
+    right: 5px; 
+    width: 75%; 
+    padding: 5px;
+    border: 5px solid black;
+    border-radius: 15px;
+    background-color: rgb(70, 70, 70);
+    color: white;
+    opacity: 80%;
+	font-size: 20px;
+
+
+}
+
+#right p { 
+    text-align: center;
+    background-color: black;
+    border-radius: 50px;
+    width: 300px;
+    margin: 0 auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 26px;
+}
+
+#right p:hover {
+    background-color: red;
+}
+
+#right h1 {
+    text-align: center;
+}
+
+.content {
+    position: relative;
+}
+
+
+
+
+footer {
+    background-color: rgb(70, 70, 70);
+    margin-top: 40%;
+    height: 30px;
+    text-align: center;
+    padding: 10px;
+    color: white;
+    border-radius: 5px solid black;
+    opacity: 80%;
+    
+}
